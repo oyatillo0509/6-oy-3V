@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+}
+
+button {
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #16de5f;
+}
+
+p {
+  font-size: 24px;
+  font-weight: bold;
+}
+.wrp {
+  margin-top: 30px;
+}
