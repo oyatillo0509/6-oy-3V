@@ -2,7 +2,8 @@ import { useState } from "react";
 import Masala from "./assets/componens/Masala";
 import Two from "./assets/componens/Two";
 import Three from "./assets/componens/Three";
-
+import Games from "./assets/componens/Games";
+import Galarey from "./assets/componens/Galarey";
 import "./App.css";
 
 function App() {
@@ -14,6 +15,8 @@ function App() {
       <Masala />
       <Two />
       <Three />
+      <Games />
+      <Galarey />
     </div>
   );
 }

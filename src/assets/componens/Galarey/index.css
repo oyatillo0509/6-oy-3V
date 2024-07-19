@@ -1,0 +1,32 @@
+.gallery-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.img_cl {
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.img_cl:hover {
+  transform: scale(1.1);
+}
+
+.modal-content {
+  margin-top: 30px;
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 8px;
+}
